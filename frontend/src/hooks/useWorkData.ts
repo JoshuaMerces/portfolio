@@ -2,7 +2,7 @@ import axios, {type AxiosPromise} from "axios";
 import type {WorkData} from '../interface/workData.ts'
 import {useQuery} from "@tanstack/react-query";
 
-const API_URL = "http://localhost:8080";
+const API_URL = "http://portfoliobackend-production-7cac.up.railway.app";
 
 const fetchData = async (): AxiosPromise<WorkData[]> => {
     const response = axios.get(API_URL + '/work');
