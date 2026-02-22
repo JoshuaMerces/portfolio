@@ -1,5 +1,5 @@
 export interface WorkData {
     id?: number;
-    title: string;
+    title?: string;
     image: string;
 }

@@ -1,5 +1,5 @@
 interface WorksCardProps {
-    title: string,
+    title?: string,
     image: string,
     onClick: () => void;
 }
