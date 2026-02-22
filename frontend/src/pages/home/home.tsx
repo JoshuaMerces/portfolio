@@ -8,31 +8,32 @@ import './style.css'
 
 function Home() {
     return (
-        <div className='container'>
+        <div className="home">
+            <div className='container'>
+                <Link to={"/about"} id="about">
+                    <button>
+                        <img src={About}/>
+                    </button>
+                </Link>
 
-            <Link to={"/about"} id="about">
-                <button>
-                    <img src={About}/>
-                </button>
-            </Link>
+                <Link to={"/work"} id="work">
+                    <button>
+                        <img src={Work}/>
+                    </button>
+                </Link>
 
-            <Link to={"/work"} id="work">
-                <button>
-                    <img src={Work}/>
-                </button>
-            </Link>
+                <Link to={"/links"} id="links">
+                    <button>
+                        <img src={Links}/>
+                    </button>
+                </Link>
 
-            <Link to={"/links"} id="links">
-                <button>
-                    <img src={Links}/>
-                </button>
-            </Link>
-
-            <Link to={"/contact"} id="contact">
-                <button>
-                    <img src={Contact}/>
-                </button>
-            </Link>
+                <Link to={"/contact"} id="contact">
+                    <button>
+                        <img src={Contact}/>
+                    </button>
+                </Link>
+            </div>
         </div>
 
     )
