@@ -4,7 +4,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    text-decoration: none;
     overflow: hidden;
-    user-select: none;
+}
+
+.pageContainer {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
 }
