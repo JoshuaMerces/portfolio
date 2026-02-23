@@ -8,46 +8,43 @@
     align-items: center;
     justify-content: center;
 
-    & button{
+    & button {
         border: none;
         background: none;
         cursor: pointer;
         padding: 0;
     }
 
-    & button:hover{
+    & button:hover {
         transform: scale(1.2);
     }
 }
 
-
 #contactB {
     position: absolute;
-    width: 500px;
+    width: 26vw;
     height: auto;
-    top: 80px;
+    top: 8vh;
     right: 30%;
     filter: invert(1);
 }
 
-
 #send {
     position: absolute;
-    bottom: 320px;
+    bottom: 30vh;
     left: 60%;
-
 }
 
 #send img {
     rotate: -8deg;
-    width: 300px;
+    width: 16vw;
     height: auto;
 }
 
 #home {
     position: absolute;
-    bottom: 20px;
-    right: 40px;
+    bottom: 2vh;
+    right: 2vw;
     outline: none;
 }
 
@@ -55,9 +52,8 @@
     filter: invert(1);
 }
 
-#home img{
-    width: 100px;
+#home img {
+    width: 6vw;
     height: auto;
     filter: invert(1);
-
 }
