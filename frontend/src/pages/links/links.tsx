@@ -27,11 +27,13 @@ function Links() {
                 onMouseLeave={() => setHovered(false)}>
 
 
+                    <a href="https://github.com/joshuamerces" target="_blank">
 
                     <p style={{
                         marginTop: '10px',
                         color: hovered ? '#fff' : '#000'
-                    }}>/putaquepariu</p>
+                    }}>/josh</p>
+
                     <p className="github-btn" style={{
                         backgroundColor: hovered ? '#CDCDCD': '#000',
                         borderRadius: '20px',
@@ -42,6 +44,7 @@ function Links() {
                     }}>Github</p>
 
                     <img src={Vetor} id={"Vetor"} style={{opacity: hovered ? 1 : 0}}/>
+                    </a>
                 </div>
 
                 <div className="linkedin">

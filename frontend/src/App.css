@@ -6,4 +6,5 @@
     justify-content: center;
     text-decoration: none;
     overflow: hidden;
+    user-select: none;
 }
