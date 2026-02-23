@@ -9,45 +9,73 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     overflow: hidden;
     font-family: pqp;
     font-weight: bold;
-    letter-spacing: 5%;
-    zoom: 1;
-
 
     & button {
         border: none;
         background: transparent;
         cursor: pointer;
     }
+}
 
-    & button:hover {
-        z-index: 1;
-    }
+#LBack {
+    position: absolute;
+    width: 90%;
+    height: auto;
+    left: 10%;
+    top: 0;
+    z-index: 0;
+}
+
+#LinksBack {
+    position: absolute;
+    width: 20%;
+    height: auto;
+    top: 2%;
+    left: 45%;
+    transform: translateX(-50%);
+    filter: invert(1);
+    z-index: 1;
 }
 
 #Vetor2 {
-    position: relative;
-    width: 45%;
+    position: absolute;
+    width: 44%;
     height: auto;
-    top: -15vh;
-    left: 18vw;
+    top: 24%;
+    left: 46%;
+    z-index: 1;
 }
 
-.git {
+#Img {
     position: absolute;
-    font-size: 1.70vw;
-    display: flex;
-    gap: 18vw;
-    top: 31vh;
-    right: 8vw;
+    width: 90%;
+    height: auto;
+    opacity: 0;
+}
+
+.sociais {
+    position: relative;
     z-index: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5%;
+    width: 80%;
+    margin-top: -14.9%;
+    margin-left: 85%;
+}
+
+.git, .linkedin, .twitter, .Instagram, .youtube {
+    display: flex;
+    gap: 30%;
+    align-items: center;
+    font-size: 1.5vw;
     cursor: pointer;
-    text-decoration: none;
-    user-select: none;
+    padding: 0.5% 2%;
 }
 
 .git a {
@@ -58,34 +86,21 @@
 
 #Vetor {
     position: absolute;
-    width: 102%;
+    width: 47%;
     height: auto;
-    right: -4px;
-    top: 1px;
+    right: 52%;
+    top: 15%;
     opacity: 0;
     z-index: -1;
-}
-
-#LBack {
-    width: 90%;
-    height: auto;
-    left: 10%;
-    position: absolute;
-}
-
-#Img {
-    width: 90%;
-    height: auto;
-    left: 10vw;
-    position: absolute;
-    opacity: 0%;
+    pointer-events: none;
 }
 
 #home {
     position: absolute;
-    bottom: 2vh;
-    right: 2vw;
+    bottom: 2%;
+    right: 2%;
     outline: none;
+    z-index: 3;
 }
 
 #home:hover {
@@ -93,50 +108,40 @@
 }
 
 #home img {
-    width: 6vw;
+    width: 5%;
     height: auto;
-    filter: invert(1);
-}
-
-#LinksBack {
-    width: 20vw;
-    height: auto;
-    position: absolute;
-    object-fit: contain;
-    top: 2vh;
-    right: 45%;
-    outline: none;
     filter: invert(1);
 }
 
 /* Tablet */
 @media (max-width: 1024px) {
-    .git {
-        gap: 12vw;
-        right: 5vw;
+    .git, .linkedin, .twitter, .Instagram, .youtube {
         font-size: 2vw;
     }
 
     #LinksBack {
-        width: 25vw;
+        width: 25%;
     }
 }
 
 /* Mobile */
 @media (max-width: 768px) {
-    .git {
-        flex-direction: column;
-        gap: 2vh;
-        top: 15vh;
-        right: 5vw;
-        font-size: 4vw;
+    .sociais {
+        width: 90%;
+        gap: 1%;
+        margin-left: 0;
+        margin-top: 0;
     }
 
-    #LinksBack {
-        width: 40vw;
+    .git, .linkedin, .twitter, .Instagram, .youtube {
+        font-size: 3.5vw;
     }
 
     #home img {
-        width: 10vw;
+        width: 8%;
+    }
+
+    #LinksBack {
+        width: 40%;
     }
 }

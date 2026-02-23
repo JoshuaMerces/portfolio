@@ -29,43 +29,21 @@ function Links() {
 
                     <a href="https://github.com/joshuamerces" target="_blank">
 
-                    <p style={{
-                        marginTop: '1vh',
-                        marginLeft: '2vh',
-                        color: hovered ? '#fff' : '#000'
-                    }}>/josh</p>
+                        <p style={{
+                            color: hovered ? '#fff' : '#000'
+                        }}>/josh</p>
 
-                    <p className="github-btn" style={{
-                        backgroundColor: hovered ? '#CDCDCD': '#000',
-                        borderRadius: '20px',
-                        padding: '0.5vh 5vw',
-                        fontWeight: 'bold',
-                        display: 'inline-block',
-                        color: hovered ? '#000' : '#FFF',
-                    }}>Github</p>
+                        <p className="github-btn" style={{
+                            backgroundColor: hovered ? '#CDCDCD': '#000',
+                            borderRadius: '20px',
+                            padding: '0.5% 4%',
+                            fontWeight: 'bold',
+                            display: 'inline-block',
+                            color: hovered ? '#000' : '#FFF',
+                        }}>Github</p>
 
-                    <img src={Vetor} id={"Vetor"} style={{opacity: hovered ? 1 : 0}}/>
+                        <img src={Vetor} id={"Vetor"} style={{opacity: hovered ? 1 : 0}}/>
                     </a>
-                </div>
-
-                <div className="linkedin">
-                    <p>/JoshuaMerces</p>
-                    <p>Linkedin</p>
-                </div>
-
-                <div className="twitter">
-                    <p>@hagettaka_</p>
-                    <p>Twitter</p>
-                </div>
-
-                <div className="Instagram">
-                    <p>@haggetaka</p>
-                    <p>Instagram</p>
-                </div>
-
-                <div className="youtube">
-                    <p>hagetaka</p>
-                    <p>Youtube</p>
                 </div>
             </div>
 
