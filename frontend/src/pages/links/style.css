@@ -12,7 +12,6 @@
     width: 100vw;
     height: 100vh;
     overflow: hidden;
-    background: cornflowerblue;
     font-family: pqp;
     font-weight: bold;
     letter-spacing: 5%;
@@ -40,13 +39,19 @@
     position: absolute;
     font-size: 1.75rem;
     display: flex;
-    gap: 16rem;
+    gap: 24rem;
     top: 19rem;
     right: 10rem;
     z-index: 2;
     cursor: pointer;
     text-decoration: none;
     user-select: none;
+}
+
+.git a {
+    text-decoration: none;
+    color: inherit;
+    display: contents;
 }
 
 #Vetor {
