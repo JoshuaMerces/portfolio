@@ -15,6 +15,8 @@
     font-family: pqp;
     font-weight: bold;
     letter-spacing: 5%;
+    zoom: 1;
+
 
     & button {
         border: none;
