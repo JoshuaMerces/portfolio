@@ -30,14 +30,15 @@ function Links() {
                     <a href="https://github.com/joshuamerces" target="_blank">
 
                     <p style={{
-                        marginTop: '10px',
+                        marginTop: '1vh',
+                        marginLeft: '2vh',
                         color: hovered ? '#fff' : '#000'
                     }}>/josh</p>
 
                     <p className="github-btn" style={{
                         backgroundColor: hovered ? '#CDCDCD': '#000',
                         borderRadius: '20px',
-                        padding: '8px 80px',
+                        padding: '0.5vh 5vw',
                         fontWeight: 'bold',
                         display: 'inline-block',
                         color: hovered ? '#000' : '#FFF',

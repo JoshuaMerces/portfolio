@@ -31,17 +31,17 @@
     position: relative;
     width: 45%;
     height: auto;
-    top: -160px;
-    left: 350px;
+    top: -15vh;
+    left: 18vw;
 }
 
 .git {
     position: absolute;
-    font-size: 1.75rem;
+    font-size: 1.70vw;
     display: flex;
-    gap: 24rem;
-    top: 19rem;
-    right: 10rem;
+    gap: 18vw;
+    top: 31vh;
+    right: 8vw;
     z-index: 2;
     cursor: pointer;
     text-decoration: none;
@@ -74,15 +74,15 @@
 #Img {
     width: 90%;
     height: auto;
-    left: 200px;
+    left: 10vw;
     position: absolute;
     opacity: 0%;
 }
 
 #home {
     position: absolute;
-    bottom: 20px;
-    right: 40px;
+    bottom: 2vh;
+    right: 2vw;
     outline: none;
 }
 
@@ -91,17 +91,17 @@
 }
 
 #home img {
-    width: 6rem;
+    width: 6vw;
     height: auto;
     filter: invert(1);
 }
 
 #LinksBack {
-    width: 31rem;
+    width: 20vw;
     height: auto;
     position: absolute;
     object-fit: contain;
-    top: 20px;
+    top: 2vh;
     right: 45%;
     outline: none;
     filter: invert(1);
@@ -110,13 +110,13 @@
 /* Tablet */
 @media (max-width: 1024px) {
     .git {
-        gap: 150px;
-        right: 80px;
-        font-size: 22px;
+        gap: 12vw;
+        right: 5vw;
+        font-size: 2vw;
     }
 
     #LinksBack {
-        width: 350px;
+        width: 25vw;
     }
 }
 
@@ -124,17 +124,17 @@
 @media (max-width: 768px) {
     .git {
         flex-direction: column;
-        gap: 10px;
-        top: 15%;
-        right: 5%;
-        font-size: 16px;
+        gap: 2vh;
+        top: 15vh;
+        right: 5vw;
+        font-size: 4vw;
     }
 
     #LinksBack {
-        width: 250px;
+        width: 40vw;
     }
 
     #home img {
-        width: 60px;
+        width: 10vw;
     }
 }
