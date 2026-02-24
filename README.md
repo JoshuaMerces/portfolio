@@ -1,4 +1,4 @@
-# 🎨Portfolio – Full-Stack Application
+# Portfolio – Full-Stack Application
 
 A full-stack web application for managing artworks, developed with a strong focus on backend architecture using Java and Spring Boot.
 
@@ -10,13 +10,13 @@ WARN: layout may break on some screen resolutions. i'm trying to fix this quick 
 
 ---
 
-## 🎯 Project Purpose
+##  Project Purpose
 
 This project was built to strengthen backend development skills using Java and Spring Boot, applying concepts such as RESTful API design, layered architecture, relational database modeling, and frontend-backend integration via HTTP/JSON.
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 ### Backend
 - Java 24
@@ -39,7 +39,7 @@ This project was built to strengthen backend development skills using Java and S
 
 ---
 
-## 🏗️ Backend Architecture
+##  Backend Architecture
 
 The backend follows a layered architecture pattern:
 
@@ -66,7 +66,7 @@ All endpoints exchange data in **JSON format**.
 
 ---
 
-## 🗄️ Database
+## Database
 
 The application uses a **PostgreSQL relational database**.
 
@@ -80,7 +80,7 @@ The project uses **Spring Data JPA** for ORM and database interaction.
 
 ---
 
-## 🔄 Frontend-Backend Integration
+## Frontend-Backend Integration
 
 The frontend communicates with the backend using:
 
